@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background-color: #f4f4f5;
+  color: #18181b;
+}
+
+body {
+  min-height: 100vh;
+}
+
+textarea {
+  font-family: inherit;
+}
