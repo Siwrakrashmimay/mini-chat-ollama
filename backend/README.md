@@ -1,3 +1,6 @@
+<img width="1120" height="832" alt="image" src="https://github.com/user-attachments/assets/9429bc73-1768-4c2e-85fc-35009a1e67b2" />
+
+
 # Mini Chat App with Ollama
 
 Full-stack mini chat application:
@@ -32,7 +35,7 @@ Full-stack mini chat application:
 ### 1. Run MongoDB
 
 ```bash
-mongod
+MONGODB_URI: ''
 ```
 
 Or use MongoDB Atlas and update `MONGODB_URI` in `env.ts`.
@@ -79,3 +82,5 @@ Base URL: `http://localhost:4000`
 - `GET /api/messages?sessionId=default` – history ของข้อความใน session
 - `POST /api/messages` – ส่งข้อความ user และรับคำตอบจาก AI
 - `DELETE /api/messages?sessionId=default` – ลบ history ของ session
+
+
