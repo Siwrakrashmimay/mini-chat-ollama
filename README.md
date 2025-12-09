@@ -32,7 +32,7 @@ Full-stack mini chat application:
 ### 1. Run MongoDB
 
 ```bash
-mongod
+MONGODB_URI: ''
 ```
 
 Or use MongoDB Atlas and update `MONGODB_URI` in `env.ts`.
