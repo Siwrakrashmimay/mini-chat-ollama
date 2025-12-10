@@ -11,7 +11,6 @@ type OllamaMessage = {
   content: string;
 };
 
-// ใช้ global fetch ของ Node 18+
 declare const fetch: (input: any, init?: any) => Promise<any>;
 
 export async function chatWithOllama(
